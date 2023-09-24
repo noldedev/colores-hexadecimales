@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  background-color: #1602B4;
+}
+
+
+.container{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.cuadro{
+  background-color: #FFF;
+  padding: 1rem;
+  max-width: 100%;
+  width: 250px;
+  border-radius: 4px;
+  box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.25);
+}
+#color{
+  font-size: 26px;
+}
+
+button{
+  padding: 5px 15px;
+  outline: none;
+  border: none;
+  background-color:#2D323C;
+  color: #FFF;
+  border-radius: 4px;
+  transition: transform .3s ease;
+  display: flex;
+  margin: 15px auto;
+}
+
+button:hover{
+  transform: scale(1.1);
+}
+
+.fa-copy {
+  font-size: 20px;
+  cursor: pointer;
+  color: #2D323C;
+}
+
+
+.flex-1{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.copiado-mensaje {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 20px;
+  margin: 40px;
+  background-color: #2D323C;
+  color: #FFF;
+  border-radius: 4px;
+  font-size: 14px;
+}
